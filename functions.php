@@ -11,22 +11,27 @@
  *
  * Text Domain: material-design-lite
  * @link http://codex.wordpress.org/Plugin_API
+ *
+ * @package Material_Design_Lite_Child
  */
 
 /**
- * Load the parent style.css file
+ * Load the styles and scripts of Child theme
  *
  * @link http://codex.wordpress.org/Child_Themes
  */
-function sp_mdl_child_enqueue_parent_style()
+function sp_mdl_child_enqueue_scripts()
 {
     // Dynamically get version number of the parent stylesheet (lets browsers re-cache your stylesheet when you update your theme)
-    $theme = wp_get_theme('Material-Design-Lite');
+    $theme = wp_get_theme('material-design-lite');
     $version = $theme->get('Version');
-    // Load the stylesheet
-    // TODO in case I use another methood for load css, perhaps I have to refactor it
-    wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array('sp-mdl-style'), $version);
 
+    // Load the stylesheet
+    wp_enqueue_style('sp-mdl-child-style', get_stylesheet_directory_uri() . '/style.css', array('sp-mdl-style'), $version);
+
+    // Load the scripts
+    wp_enqueue_script('sp-mdl-child-scripts', get_stylesheet_directory_uri() . '/scripts.js', array('sp-mdl-scripts'), $version, true);
 }
 
-add_action('wp_enqueue_scripts', 'sp_mdl_child_enqueue_parent_style');
+// TODO: uncomment the line below to enable load child scripts and styles
+//add_action('wp_enqueue_scripts', 'sp_mdl_child_enqueue_scripts');
