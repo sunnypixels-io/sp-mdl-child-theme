@@ -4,11 +4,11 @@ Child Theme for the Material-Design-Lite WordPress theme.
 
 
 ### Usage
-Simply download the zip and upload the zip (material-design-lite-child-theme-master.zip) under your WordPress dashboard at Appearance > Themes. Or extract and upload via FTP at wp-content/themes/.
+Simply download the zip and upload the zip ([sp-material-design-lite-child-theme.zip](https://github.com/sunny-pixels/sp-mdl-child-theme/releases/download/v1.0.0/sp-material-design-lite-child-theme.zip)) under your WordPress dashboard at Appearance > Themes. Or extract and upload via FTP at wp-content/themes/.
 
 
 ### Renaming
-You can of course rename the zip file so it isn't called material-design-lite-child-theme-master.zip (you should do this so it makes more sense) and also change the "Theme Name" at the top of the style.css file.
+You can of course rename the zip file so it isn't called [sp-material-design-lite-child-theme.zip](https://github.com/sunny-pixels/sp-mdl-child-theme/releases/download/v1.0.0/sp-material-design-lite-child-theme.zip) (you should do this so it makes more sense) and also change the "Theme Name" at the top of the style.css file.
 
 
 ## License
