@@ -1,14 +1,14 @@
-# Material-Design-Lite Child Theme
+# SP MDL Child Theme
 
-Child Theme for the [Material-Design-Lite](https://github.com/sunny-pixels/sp-mdl) WordPress theme.
+Child Theme for the [SP MDL](https://github.com/sunny-pixels/sp-mdl) WordPress theme.
 
 
 ### Usage
-Simply download the zip and upload the zip ([sp-material-design-lite-child-theme.zip](https://github.com/sunny-pixels/sp-mdl-child-theme/releases/download/v1.0.0/sp-material-design-lite-child-theme.zip)) under your WordPress dashboard at Appearance > Themes. Or extract and upload via FTP at wp-content/themes/.
+Simply download the zip and upload the zip ([sp-mdl-child-theme.zip](https://github.com/sunny-pixels/sp-mdl-child-theme/releases/download/v1.0.0/sp-mdl-child-theme.zip)) under your WordPress dashboard at Appearance > Themes. Or extract and upload via FTP at wp-content/themes/.
 
 
 ### Renaming
-You can of course rename the zip file so it isn't called [sp-material-design-lite-child-theme.zip](https://github.com/sunny-pixels/sp-mdl-child-theme/releases/download/v1.0.0/sp-material-design-lite-child-theme.zip) (you should do this so it makes more sense) and also change the "Theme Name" at the top of the style.css file.
+You can of course rename the zip file so it isn't called [sp-mdl-child-theme.zip](https://github.com/sunny-pixels/sp-mdl-child-theme/releases/download/v1.0.0/sp-mdl-child-theme.zip) (you should do this so it makes more sense) and also change the "Theme Name" at the top of the style.css file.
 
 ### Note
 When using a child theme (see [http://codex.wordpress.org/Theme_Development]()

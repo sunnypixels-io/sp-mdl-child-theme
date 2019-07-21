@@ -9,10 +9,10 @@
  * file is included before the parent theme's file, so the child theme
  * functions would be used.
  *
- * Text Domain: material-design-lite
+ * Text Domain: sp-mdl
  * @link http://codex.wordpress.org/Plugin_API
  *
- * @package Material_Design_Lite_Child
+ * @package SP_MDL_Child
  */
 
 /**
@@ -23,7 +23,7 @@
 function sp_mdl_child_enqueue_scripts()
 {
     // Dynamically get version number of the parent stylesheet (lets browsers re-cache your stylesheet when you update your theme)
-    $theme = wp_get_theme('material-design-lite');
+    $theme = wp_get_theme('sp-mdl');
     $version = $theme->get('Version');
 
     // Load the stylesheet
